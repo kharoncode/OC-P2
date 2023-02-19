@@ -1,5 +1,5 @@
 # Projet 2 - Transformez une maquette en site web avec HTML & CSS
-Durée : 13/02/2023 > 17/02/2023 = 5 jours
+Durée : 13/02/2023 > 22/02/2023
 
 Lien Figma pour la maquette : https://www.figma.com/file/aen32jonHhD7JnIEL2b3sE/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3%3A0&t=XgjkuMIt7WgzK3Dj-0
 
