@@ -49,6 +49,7 @@
     }
 
     h4 {
+        font-size: 1em;
         font-weight: 700;
         line-height: 18.78px;
     }
@@ -230,14 +231,13 @@
     .main {
         width: 93%;
         margin: auto;
-         
-        display: flex;
-        flex-direction: column;
+        margin-bottom: 60px;
     }
 
     .hosting {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 60px;
     }
 
     /* Hosting */
@@ -257,7 +257,8 @@
         }
 
         .hosting-window {
-            margin: 0 10px 40px 10px;
+            width: 100%;
+            padding: 0 16px 40px 16px;
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
@@ -349,7 +350,6 @@
 
         .img-popular {
             float:left;
-            margin-right: 15px;
             height: 134px;
             max-width: 127px;
             width: 40%;
@@ -367,7 +367,8 @@
         }
         
         .popular-info p{
-            font-size: 0.9375em;
+            font-size: 0.875em;
+            line-height: 16.44px;
         }
 
         .popular-info h4{
@@ -388,10 +389,6 @@
         }
     
     /* Activity */
-        .main-activity{
-            margin: 60px 0 60px 0;
-        }
-
         .activity-title{
             margin: 0 0 18.47px 0;
         }
@@ -448,7 +445,7 @@
     }
 
     .footer ul{
-        margin-top: 45px;
+        margin-top: 40px;
     }
 
     .footer-title{
@@ -478,6 +475,7 @@
     .hosting {
         flex-direction: column;
         justify-content:center;
+        margin-bottom: 70px;
     }
 
     /* Hosting-992 */
@@ -485,17 +483,13 @@
             width: 100%;
             margin: 0;
             padding: 0;
-            margin: 0 0 53px 0;
-        }
-
-        .main-popular {
-            margin: 0;
-            padding: 0;
-            width: 100%;
+            margin-bottom: 53px;
         }
 
     /* Popular-992  */ 
         .main-popular{
+            margin: 0;
+            padding: 0;
             min-height: 278px;
             width: 100%;
         }
@@ -518,7 +512,7 @@
         }
 
         .popular-info{
-            padding: 7px 5px 7px 0px;
+            padding: 7px 5px 7px 10px;
         }
 
         .popular-info p{
@@ -526,7 +520,6 @@
         }
 
         .popular-info h4{
-            font-size: 0.875em;
             line-height: 16.44px;
             padding-right: 12px;
         }
@@ -561,6 +554,7 @@
 }
 
 @media screen and (max-width: 768px){
+
 /* HEADER-768 */
     .header{
         width: 100%;
@@ -731,45 +725,124 @@
 /* MAIN-768    */ 
     .main{
         width: 100%;
+        margin-bottom: 69px;
     }
     
     .hosting{
-        flex-direction: column-reverse
+        flex-direction: column-reverse;
+        margin-bottom: 105px;
     }
     
     /* Popular-768  */ 
-    .main-popular{
-        background-color: #F2F2F2;
-        min-width: initial;
-    }
+        .main-popular{
+            background-color: #F2F2F2;
+            min-width: initial;
+        }
 
-    .popular-window{
-        margin: 0;
-        padding: 26px 20px 47px 20px ;
-        width: 100%;
-    }
+        .popular-title{
+            margin: 0;
+            padding: 28px 20px 0 20px;
+        }
 
-    .popular-container{
-        width: 100%;
-    }
+        .popular-window{
+            margin: 0;
+            padding: 26px 20px 47px 20px ;
+            width: 100%;
+        }
 
-    .img-popular{
-        width: 38.02%;
-        max-width: 137px;
-    }
+        .popular-container{
+            width: 100%;
+        }
+
+        .img-popular{
+            width: 40%;
+            min-width: 127px;
+            max-width: initial;
+            min-height: 134px;
+        }
+
+        .popular-info{
+            padding: 16px 13px 12px 15px;
+        }
         
     /* Hosting-768 */
         .main-hosting{
         border-radius: 0;
+        margin: 0;
         background-color: #fff;
+        min-height: initial;
+        }
+
+        .hosting-title{
+            padding: 26px 0 19px 20px;
+            margin: 0;
+        }
+
+        .hosting-window{
+        padding: 0 20px 0 20px;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .hosting-container{
+            margin: 0;
+            width: 100%;
+            max-width: initial;
+            max-height: 199px;
+        }
+
+        .hosting-more{
+            display: none;
         }
 
     /* Activity-768 */
+        .activity-title{
+            margin: 0;
+            padding: 0 0 10px 20px;
+        }
+
+        .activity-window{
+            padding: 0 20px 0 20px;
+            height: initial;
+            flex-direction: column;
+            justify-content: initial;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+
+        .activity-container{
+            width: 100%;
+            min-width: initial;
+            max-height: 190px;
+        }
+
+        .img-activity{
+            height: 100%;
+            max-height: 131px;
+        }
+
+        .activity-container-title{
+            height: 100%;
+            min-height: 56px;
+        }
+
+        .activity-container h4{
+            margin-left: 20px;
+        }
+
+
         
     
 /* FOOTER-768 */
+    .footer{
+        height: 100%;
+    }
+
     .footer-container{
         width: 100%;
+        flex-direction: column;
+        padding: 10px 0 50px 33px;
     } 
 
 }
