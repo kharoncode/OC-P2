@@ -7,11 +7,11 @@
     <title>BOOKI</title>
     <!-- Font Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-   <!--  Font Awesome -->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <!--  Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/16f0d96f1d.js" crossorigin="anonymous"></script>  
 </head>
@@ -25,8 +25,8 @@
     <nav class="header-menu">
         <img src="/images/logo/Booki.png" alt="Logo de Booki" class="logo">
         <div class="menu-nav">
-            <a href="#hosting" class="menu-active">Hébergements</a>
-            <a href="#activity" class="menu-active">Activités</a>
+            <a href="#hosting-tag" class="menu-active">Hébergements</a>
+            <a href="#activity-tag" class="menu-active">Activités</a>
         </div>
 
     </nav>
@@ -39,16 +39,19 @@
         <ul class="search-location">
             <li class="location-i center"><i class="fa-solid fa-location-dot"></i></li>
             <li><input type="search" value="Marseille, France"></li>
-            <a href="#" class="media-large"><li class="btn-search"><h4>Rechercher</h4></li></a>
-            <a href="#" class="media-small"><li class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></li></a>
+            <li class="media-large"><a href="#" class="btn-search center"><h4>Rechercher</h4></a></li>
+            <li class="media-small"><a href="#" class="btn-search center"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+
         </ul>
 
         <article class="search-filter">
             <h4 class="center filter-items">Filtres</h4>
-            <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-money-bill-wave"></i>Économique</div></a>
-            <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-person"></i>Familial</div></a>
-            <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-heart"></i>Romantique</div></a>
-            <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-dog"></i>Animaux autorisés</div></a>
+            <div class="filter-container">
+                <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-money-bill-wave"></i>Économique</div></a>
+                <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-person"></i>Familial</div></a>
+                <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-heart"></i>Romantique</div></a>
+                <a href="#"><div class="btn btn-filter filter-items"><i class="fa-solid fa-dog"></i>Animaux autorisés</div></a>
+            </div>
         </article>
 
         
@@ -67,7 +70,7 @@
 <!-- MAIN -->
  <main class="main">
 
-    <section class="hosting"  id="hosting">
+    <div class="hosting"  id="hosting-tag">
 
         <!-- Hosting -->
         <section class="main-hosting">
@@ -196,7 +199,7 @@
                 <a class="popular-card" href="#">
                     <img class="img-popular" src="/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambres d'hôtes Au coeur de l'eau">
                     <div class="popular-info">
-                        <h4>Chambres d'hôtes Au coeur de l'eau</h4></li>
+                        <h4>Chambres d'hôtes Au coeur de l'eau</h4>
                         <p>Nuit à partir de 71<span class="euro">€</span></p>
                         <div class="popular-star">
                             <span class="rating fa fa-star checked"></span>
@@ -225,10 +228,10 @@
             </div>
     
         </section>
-    </section>
+    </div>
 
     <!-- Activity -->
-    <article class="main-activity" id="activity">
+    <article class="main-activity" id="activity-tag">
         <h2 class="activity-title">Activiés à Marseille</h2>
             <div  class="activity-window">
                 <a href="#" class="activity-card">
