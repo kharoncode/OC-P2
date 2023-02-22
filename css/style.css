@@ -237,7 +237,7 @@
             margin-right: 3%;
             background-color: #F2F2F2;
             border-radius: 20px;
-            min-height: 618px;
+            min-height: 626px;
             height: 100%;
             width: 66%;
         }
@@ -301,7 +301,7 @@
             background-color: #F2F2F2;
             border-radius: 20px;
             height: 100%;
-            min-height: 618px;
+            min-height: 626px;
             width: 31.5%;
             min-width: 364px;
         }
@@ -460,7 +460,8 @@
 @media screen and (max-width: 992px){
     /* BODY-992 */
         .body{
-            padding: 0 72px 0 72px;
+            max-width: 850px;
+            padding: 0 10px 0 10px;
         }
 
     /* HEADER-992 */
@@ -482,20 +483,23 @@
 
         /* Popular-992  */ 
             .main-popular{
+                padding: 0;
                 min-height: 278px;
                 width: 100%;
             }
 
             .popular-window {
-                padding: 26px 26px 48px 26px;
-                justify-content: space-evenly;
+                padding: 26px 16px 48px 16px;
+                justify-content: space-between;
                 gap: 23px;
             }
         
             .popular-card{
                 width: 31%;
                 min-width: 244px;
+                max-width: 350px;
                 height: 144px;
+                flex-grow: 1;
             }
 
             .img-popular{
