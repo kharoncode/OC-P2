@@ -206,6 +206,10 @@
             font-size: 0.625em;
         }
 
+        .btn-i:hover{
+            background-color: initial;
+        }
+
         .search-info {
             margin-bottom: 37px;
             display: flex;
@@ -578,6 +582,7 @@
                 margin: 0;
                 font-weight: 500;
                 padding-bottom: 23px;
+                border-bottom: solid #F2F2F2;
             }
 
             a.menu-active:hover {
